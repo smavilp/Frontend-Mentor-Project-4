@@ -2,34 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
-  <main>
-    <img src="./images/illustration-hero.svg" alt="hero illustration">
-    <div class="main-div">
-      <h1>Order Summary</h1>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+  <main class="main">
+    <img class="main__img" src="./assets/images/illustration-hero.svg" alt="">
+    <div class="main__div main-div">
+      <h1 class="main__h1">Order Summary</h1>
+      <p class="main__p">
+        You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!
       </p>
-      <div class="plan-div">
-        <img src="./images/icon-music.svg" alt="music icon">
-        <div>
-          <span class="text-plan">Annual Plan</span>
-          <span class="text-price">$59.99/year</span>
+      <div class="main-div__div plan-div">
+        <img class="plan-div__img" src="./assets/images/icon-music.svg" alt="">
+        <div class="plan-div__div info-div">
+          <span class="info-div__span info-div__span--text">
+            Annual Plan
+          </span>
+          <span class="info-div__span info-div__span--price">
+            $59.99/year
+          </span>
         </div>
-        <span>Change</span>
+        <a href="#" class="plan-div__a">
+          Change
+        </a>
       </div>
-      <div class="btn-div">Proceed to Payment</div>
-      <span>Cancel Order</span>
+      <a href="#" class="main-div__a main-div__a--payment">
+        Proceed to Payment
+      </a>
+      <a href="#" class="main-div__a main-div__a--cancel">
+        Cancel Order
+      </a>
     </div>
   </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/smavilp">Sebastián Martínez Arango</a>.
-  </div>
+  <footer>
+    <span class="footer__span">Challenge by <a class="footer__a" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </span>
+    <span class="footer__span">Coded by <a class="footer__a" href="https://www.frontendmentor.io/profile/smavilp">Sebastián Martínez Arango</a>.</span>
+  </footer>
 </body>
 </html>
